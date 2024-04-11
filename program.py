@@ -85,4 +85,4 @@ if __name__ == "__main__":
         for fragment, article_title in fragments:
             highlighted_fragment = re.sub(r'\b' + query + r'\b', r'<span style="background-color: yellow;">\g<0></span>', fragment, flags=re.IGNORECASE)
             f.write(f"<p>{highlighted_fragment} <strong>{article_title}</strong></p>") 
-        f.write("</body></html>")  # Close HTML tags
+        f.write("</body></html>") 
