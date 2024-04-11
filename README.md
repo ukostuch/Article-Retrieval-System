@@ -12,6 +12,8 @@ The program generates an HTML file named "fragments.html" containing the retriev
 - **Contextual Fragments**: Each fragment consists of three sentences, with the middle sentence containing the search keyword.
 - **Article Title Display**: The title of the article from which each fragment is extracted is displayed in bold for reference.
 
+![Example_output](Example_output.png)
+
 ## Dependencies
 
 To run the program, ensure the following libraries are installed:
